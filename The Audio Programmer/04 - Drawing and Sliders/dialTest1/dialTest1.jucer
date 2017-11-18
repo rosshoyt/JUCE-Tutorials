@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="d4riDT" name="dialTest1" displaySplashScreen="1" reportAppUsage="1"
+              splashScreenColour="Dark" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.dialTest1" includeBinaryInAppConfig="1"
+              cppLanguageStandard="11" companyCopyright="" jucerVersion="5.2.0">
+  <MAINGROUP id="Be2MTj" name="dialTest1">
+    <GROUP id="{E750D84B-07BA-11C9-7F3F-F975BB2CA96E}" name="Source">
+      <FILE id="At36zg" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="R9poZI" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="ObWW8U" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="xCyrFT" name="TestComponent.cpp" compile="1" resource="0"
+            file="Source/TestComponent.cpp"/>
+      <FILE id="PYV9Qq" name="TestComponent.h" compile="0" resource="0" file="Source/TestComponent.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" enablePluginBinaryCopyStep="1" isDebug="1" optimisation="1"
+                       linkTimeOptimisation="0" targetName="dialTest1"/>
+        <CONFIGURATION name="Release" enablePluginBinaryCopyStep="1" isDebug="0" optimisation="3"
+                       linkTimeOptimisation="1" targetName="dialTest1"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../../Documents/JUCE/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../Documents/JUCE/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../Documents/JUCE/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../Documents/JUCE/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../Documents/JUCE/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../Documents/JUCE/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../Documents/JUCE/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../../../../../Documents/JUCE/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../Documents/JUCE/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../Documents/JUCE/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../Documents/JUCE/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../Documents/JUCE/JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../Documents/JUCE/JUCE/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
